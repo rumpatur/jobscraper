@@ -51,12 +51,11 @@ pip install --upgrade pip && pip install -r requirements.txt
 ```bash
 python cli.py -h
 ```
-
-Позиционные аргументы:
+Позиционные аргументы:\
   `queries`                       Список запросов для поиска вакансий
 
-Опции:
-  `-h, --help`                    Справка
+Опции:\
+  `-h, --help`                    Справка\
   `-o, --output {csv,json,db}`    Формат сохранения данных (csv, json, db)
 
 Примеры запуска:
